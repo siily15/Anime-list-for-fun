@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+:root {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+
+header{
+    background-image: url('https://source.unsplash.com/R2OM3BvN-Uo/1920x900');
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1920px;
+    padding: 1rem  1rem;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 99%);
+}
+
+nav a:hover{
+    color: hsl(0, 3%, 53%)
+}
+
+.hero{
+    font-size: 22px;
+    margin: auto;
+}
+
+.conteiner{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.hero-text{
+    max-width: 450px;
+    padding: 1rem 0;
+    color: white;
+}
+
+.hero button{
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 22px;
+    color: white;
+}
+
